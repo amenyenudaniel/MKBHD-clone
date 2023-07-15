@@ -1,0 +1,132 @@
+:root {
+  --black: #27292a;
+  --red: #e5202b;
+  --whiteGray: #e9eaed;
+  --gray: #e9eaed;
+  --heading: "FF DIN Pro Condensed", sans-serif;
+  --base: "FF DIN Pro", sans-serif;
+  --dark: #111111;
+  --darker: #0c0c0c;
+}
+
+a:hover {
+  opacity: 0.85;
+}
+.slideFromLeft {
+  -webkit-animation: slide-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateX(-25%);
+    transform: translateX(-25%);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+@keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateX(-25%);
+    transform: translateX(-25%);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+.button {
+  display: inline-block;
+  clip-path: polygon(18px 0%, 100% 0%, calc(100% - 18px) 100%, 0% 100%);
+  cursor: pointer;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+
+  background-color: var(--black);
+  color: white;
+  transition: 0.3s;
+  padding: 10px 30px;
+  z-index: -5;
+}
+
+.button__dark {
+  display: inline-block;
+  clip-path: polygon(18px 0%, 100% 0%, calc(100% - 18px) 100%, 0% 100%);
+  cursor: pointer;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+
+  background-color: white;
+  color: var(--black);
+  transition: 0.3s;
+  padding: 10px 30px;
+  z-index: -5;
+}
+
+.BTN {
+  display: inline-block;
+  clip-path: polygon(18px 0%, 100% 0%, calc(100% - 18px) 100%, 0% 100%);
+  cursor: pointer;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+
+  background-color: var(--black);
+  color: white;
+  transition: 0.3s;
+  padding: 10px 30px;
+}
+.button:hover {
+  opacity: 0.8;
+  color: white;
+}
+
+.button__dark:hover {
+  opacity: 0.8;
+  color: var(--black);
+}
+.BTN:hover {
+  opacity: 0.8rem;
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .button {
+    display: block;
+    width: 100%;
+  }
+
+  .button__dark {
+    display: block;
+    width: 100%;
+  }
+}

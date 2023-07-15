@@ -1,0 +1,33 @@
+.toggle__icon__container {
+  background-color: var(--black);
+  border-radius: 2rem;
+  padding: 0.5rem;
+  margin-right: 2rem;
+  width: 4rem;
+  height: 2rem;
+  display: flex;
+  cursor: pointer;
+  position: relative;
+}
+.toggle__icon__container i {
+  color: var(--gray);
+  font-size: 1.1rem;
+}
+.toggle__icon__container i:hover {
+  color: var(--gray);
+}
+.sun {
+  position: absolute;
+  left: 2.5rem;
+}
+
+.round__btn {
+  position: absolute;
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 100%;
+  background-color: white;
+  z-index: 10;
+  top: 3px;
+  left: 2px;
+}

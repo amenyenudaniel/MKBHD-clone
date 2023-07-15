@@ -1,0 +1,151 @@
+.main__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3.5rem;
+  padding: 0.3rem 4rem;
+}
+.product1 {
+  transition: 1s;
+}
+
+main {
+  background-color: var(--gray);
+  color: var(--black);
+}
+.product__container {
+  background-color: white;
+  clip-path: polygon(
+    48px 0%,
+    100% 0px,
+    100% calc(100% - 48px),
+    calc(100% - 48px) 100%,
+    0px 100%,
+    0% 48px
+  );
+  padding: 48px 24px 20px;
+  transition: 0.3s ease;
+}
+
+.product__container:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.product__image {
+  width: 100%;
+  height: 100%;
+}
+
+.product__image img {
+  width: 100%;
+  height: 100%;
+}
+
+.product__card h3 {
+  margin-top: 2.5rem;
+  font-size: 1.1rem;
+  font-weight: bolder;
+  font-style: italic;
+  letter-spacing: -0.06rem;
+}
+
+.product__card p {
+  font-size: 1.05rem;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+.last--btn {
+  margin: 2rem 0;
+  background-color: var(--red);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.95rem;
+  width: 20%;
+  margin: auto;
+}
+@media screen and (max-width: 500px) {
+  .last--btn {
+    width: 50%;
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .product__container {
+    height: 100%;
+    clip-path: polygon(
+      20px 0%,
+      100% 0px,
+      100% calc(100% - 20px),
+      calc(100% - 20px) 100%,
+      0px 100%,
+      0% 20px
+    );
+    padding: 6px 12px;
+  }
+
+  .product__card h3 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: -0.07rem;
+
+    margin-top: 0.5rem;
+  }
+  .product__card p {
+    font-size: 1rem;
+    font-weight: 700;
+  }
+}
+
+.plus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+}
+.plus p {
+  font-size: 1.6rem;
+  font-weight: bolder;
+  cursor: pointer;
+  padding: 0.3rem 0.2rem;
+  font-family: var(--base);
+}
+
+@media screen and (max-width: 800px) {
+  .main__container {
+    gap: 1rem;
+    padding: 0rem 1.5rem;
+  }
+  .product__container:hover {
+    cursor: default;
+    transform: scale(1);
+  }
+
+  .plus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 0.4rem;
+  }
+
+  .plus p {
+    font-size: 1.2rem;
+    padding: 0rem 0.2rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .product__card h3 {
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+  }
+
+  .product__card p {
+    font-size: 0.7rem;
+
+    margin-top: 0.3rem;
+    letter-spacing: 1px;
+  }
+}
