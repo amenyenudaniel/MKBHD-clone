@@ -17,7 +17,7 @@ footer h1 {
   font-style: italic;
   font-family: var(--heading);
   animation-name: moveLeft;
-  animation-duration: 70s;
+  animation-duration: 300s;
   animation-delay: 0s;
   animation-iteration-count: infinite;
   letter-spacing: -0.4rem;

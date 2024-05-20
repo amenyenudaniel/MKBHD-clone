@@ -75,14 +75,14 @@ const Header = ({ setDarkmode, darkmode }) => {
             className="app__navbar-links"
             style={darkmode ? { color: "white" } : { color: "" }}
           >
-            <a href="#" className="a--tags">
+            <a href="#c" className="a--tags">
               Shop
             </a>
-            <a href="#">MKBHD</a>
-            <a href="#">The Studio</a>
-            <a href="#">Podcasts</a>
-            <a href="#">AutoFocus</a>
-            <a href="#">Apply</a>
+            <a href="#nn">MKBHD</a>
+            <a href="#c">The Studio</a>
+            <a href="#s">Podcasts</a>
+            <a href="#c">AutoFocus</a>
+            <a href="#s">Apply</a>
             <i>
               <ShoppingCart
                 className="cart--icon all--icons"
@@ -121,22 +121,22 @@ const Header = ({ setDarkmode, darkmode }) => {
               </div>
 
               <div className="overlay__links">
-                <a href="#" onClick={() => setToggleMenu(false)}>
+                <a href="#x" onClick={() => setToggleMenu(false)}>
                   Shop
                 </a>
-                <a href="#" onClick={() => setToggleMenu(false)}>
+                <a href="#s" onClick={() => setToggleMenu(false)}>
                   MKBHD
                 </a>
-                <a href="#" onClick={() => setToggleMenu(false)}>
+                <a href="#c" onClick={() => setToggleMenu(false)}>
                   The Studio
                 </a>
-                <a href="#" onClick={() => setToggleMenu(false)}>
+                <a href="#v" onClick={() => setToggleMenu(false)}>
                   Podcasts
                 </a>
-                <a href="#" onClick={() => setToggleMenu(false)}>
+                <a href="#d" onClick={() => setToggleMenu(false)}>
                   AutoFocus
                 </a>
-                <a href="#" onClick={() => setToggleMenu(false)}>
+                <a href="#v" onClick={() => setToggleMenu(false)}>
                   Apply
                 </a>
               </div>

@@ -1,6 +1,7 @@
 .header {
   position: relative;
-  height: 100vh;
+  width: 100%;
+  height: 70vh;
 }
 
 .sticky {
@@ -10,6 +11,7 @@
   background-color: white;
   z-index: 1000;
   padding-top: 0;
+  width: 100%;
 }
 
 .sticky-dark {
@@ -19,30 +21,32 @@
   background-color: var(--darker);
   z-index: 1000;
   padding-top: 0;
+  width: 100%;
 }
 video {
   position: absolute;
   top: 0;
   z-index: -600;
   width: 100%;
-  height: 100vh;
+  height: 70vh;
   object-fit: cover;
 }
 
 .nav {
   padding-left: 60px;
   padding-right: 60px;
-  display: flex;
   padding-top: 1.2rem;
   padding-bottom: 0.4rem;
-  justify-content: space-between;
+  display: flex;
   align-items: center;
-  width: 100%;
+  justify-content: space-between;
 }
 .app__navbar-icons {
   display: flex;
   align-items: center;
+  justify-content: flex-start;
   color: var(--black);
+  width: 100%;
 }
 .open {
   color: var(--black);
@@ -77,21 +81,21 @@ video {
   margin-right: 2rem;
 }
 .app__navbar-logo {
-  width: 40px;
-  height: 35px;
-  margin-left: auto;
   cursor: pointer;
-  margin-right: 5rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 .app__navbar-logo img {
-  width: 100%;
-  height: 100%;
+  width: 40px;
+  height: 35px;
 }
 .app__navbar-links {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  width: 100%;
   color: var(--black);
 }
 
@@ -212,7 +216,6 @@ a {
   color: var(--red);
 }
 
-
 @media screen and (max-width: 1000px) {
   .app__navbar-links {
     display: none;
@@ -262,7 +265,7 @@ header {
   align-items: center;
   flex-direction: column;
   gap: 3rem;
-  padding-top: 20%;
+  height: 70vh;
 }
 
 header h1 {

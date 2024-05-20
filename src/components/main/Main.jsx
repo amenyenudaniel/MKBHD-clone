@@ -67,16 +67,6 @@ const Main = ({ darkmode }) => {
                 <p>$65.00</p>
               </div>
             </div>
-          </div>
-        </div>
-
-        <div className="main__card">
-          <div className="plus">
-            <p>+</p>
-            <p>+</p>
-            <p>+</p>
-          </div>
-          <div className="main__container">
             <div
               className="product__container"
               style={
@@ -153,102 +143,6 @@ const Main = ({ darkmode }) => {
                 <p>$29.00</p>
               </div>
             </div>
-          </div>
-        </div>
-
-        <div className="main__card">
-          <div className="plus">
-            <p>+</p>
-            <p>+</p>
-            <p>+</p>
-          </div>
-          <div className="main__container">
-            <div
-              className="product__container"
-              style={
-                darkmode
-                  ? { backgroundColor: "var(--dark)" }
-                  : { backgroundColor: "" }
-              }
-            >
-              <div className="product__card">
-                <div className="product__image">
-                  <img src={product7} alt="product" />
-                </div>
-                <h3>STUDIO T-SHIRT</h3>
-                <p>$29.00</p>
-              </div>
-            </div>
-
-            <div
-              className="product__container"
-              style={
-                darkmode
-                  ? { backgroundColor: "var(--dark)" }
-                  : { backgroundColor: "" }
-              }
-            >
-              <div className="product__card">
-                <div className="product__image">
-                  <img src={product8} alt="product" />
-                </div>
-                <h3>CORE LOGO WINDBREAKER</h3>
-                <p>$40.00</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="main__card">
-          <div className="plus">
-            <p>+</p>
-            <p>+</p>
-            <p>+</p>
-          </div>
-          <div className="main__container">
-            <div
-              className="product__container"
-              style={
-                darkmode
-                  ? { backgroundColor: "var(--dark)" }
-                  : { backgroundColor: "" }
-              }
-            >
-              <div className="product__card">
-                <div className="product__image">
-                  <img src={product9} alt="product" />
-                </div>
-                <h3>DESK MAT</h3>
-                <p>$30.00</p>
-              </div>
-            </div>
-
-            <div
-              className="product__container"
-              style={
-                darkmode
-                  ? { backgroundColor: "var(--dark)" }
-                  : { backgroundColor: "" }
-              }
-            >
-              <div className="product__card">
-                <div className="product__image">
-                  <img src={product10} alt="product" />
-                </div>
-                <h3>KEYBOARD T-SHIRT</h3>
-                <p>$29.00</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="main__card">
-          <div className="plus">
-            <p>+</p>
-            <p>+</p>
-            <p>+</p>
-          </div>
-          <div className="main__container">
             <div
               className="product__container"
               style={
@@ -302,6 +196,82 @@ const Main = ({ darkmode }) => {
             >
               <div className="product__card">
                 <div className="product__image">
+                  <img src={product9} alt="product" />
+                </div>
+                <h3>DESK MAT</h3>
+                <p>$30.00</p>
+              </div>
+            </div>
+
+            <div
+              className="product__container"
+              style={
+                darkmode
+                  ? { backgroundColor: "var(--dark)" }
+                  : { backgroundColor: "" }
+              }
+            >
+              <div className="product__card">
+                <div className="product__image">
+                  <img src={product10} alt="product" />
+                </div>
+                <h3>KEYBOARD T-SHIRT</h3>
+                <p>$29.00</p>
+              </div>
+            </div>
+            <div
+              className="product__container"
+              style={
+                darkmode
+                  ? { backgroundColor: "var(--dark)" }
+                  : { backgroundColor: "" }
+              }
+            >
+              <div className="product__card">
+                <div className="product__image">
+                  <img src={product7} alt="product" />
+                </div>
+                <h3>STUDIO T-SHIRT</h3>
+                <p>$29.00</p>
+              </div>
+            </div>
+
+            <div
+              className="product__container"
+              style={
+                darkmode
+                  ? { backgroundColor: "var(--dark)" }
+                  : { backgroundColor: "" }
+              }
+            >
+              <div className="product__card">
+                <div className="product__image">
+                  <img src={product8} alt="product" />
+                </div>
+                <h3>CORE LOGO WINDBREAKER</h3>
+                <p>$40.00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="main__card">
+          <div className="plus">
+            <p>+</p>
+            <p>+</p>
+            <p>+</p>
+          </div>
+          <div className="main__container">
+            <div
+              className="product__container"
+              style={
+                darkmode
+                  ? { backgroundColor: "var(--dark)" }
+                  : { backgroundColor: "" }
+              }
+            >
+              <div className="product__card">
+                <div className="product__image">
                   <img src={product13} alt="product" />
                 </div>
                 <h3>
@@ -327,16 +297,6 @@ const Main = ({ darkmode }) => {
                 <p>$29.00</p>
               </div>
             </div>
-          </div>
-        </div>
-
-        <div className="main__card">
-          <div className="plus">
-            <p>+</p>
-            <p>+</p>
-            <p>+</p>
-          </div>
-          <div className="main__container">
             <div
               className="product__container"
               style={
@@ -371,7 +331,9 @@ const Main = ({ darkmode }) => {
               </div>
             </div>
           </div>
+        </div>
 
+        <div className="main__card">
           <div className="plus">
             <p>+</p>
             <p>+</p>
